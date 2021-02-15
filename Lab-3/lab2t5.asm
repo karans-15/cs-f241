@@ -6,7 +6,7 @@ ARRAY1	DD 1h,2h,3h,4h,5h,6h,7h,8h,9h,0Ah
 .code
 .startup
 		LEA SI,ARRAY1
-		MOV CX,11
+		MOV CX,11 ; Check if 11 or 10
 		ADD SI,39 ; Ending byte of array1 (4*10 bytes total)
 		MOV DI,SI
 		ADD DI,20
