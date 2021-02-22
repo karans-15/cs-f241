@@ -1,5 +1,13 @@
-;Pre lab4 demo
-;INT 21h
+;lab4 task
+;Display the string “Enter User Name” and goes to the next line
+;Takes in the user entered string compares with user name value already stored in memory
+;If there is no match it should exit.
+;If there is a match it should display the string “Enter Password” and goes to next line
+;Takes in password entered by the user and compares with password already stored in memory
+;If there is no match it should exit’
+;If there is a match it should display “Hello Username”
+;While the username is being entered it can be displayed but when password is being entered user pressed key should be displayed instead it should display “*” for every key pressed.
+;The user name size is fixed to 10 characters and password to 8 characters.
 .model tiny
 .486
 .data
