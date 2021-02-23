@@ -6,10 +6,10 @@
 dat1		db 		'1','2','3','4'
 res			db 		4 dup(0)
 stack1		dw 		4 dup(?)
-top_stack1	label 	word
+top_stk	label 	word
 .code
 .startup
-		LEA SP,top_stack1
+		LEA SP,top_stk
 		LEA SI,dat1
 		LEA DI,res
 		MOV CX,4
